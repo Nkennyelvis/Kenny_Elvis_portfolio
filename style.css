@@ -390,11 +390,12 @@ a:hover { color: #9370DB; }
     transition: transform 0.3s ease;
 }
 .footer-col .social-links img {
-    width: 100%;
-    height: 100%;
-    filter: invert(100%);
+    width: 10px;
+    /* height: 100%; */
+    /* filter: invert(100%); */
 }
 .footer-col .social-links a:hover { transform: translateY(-0.3125rem); }
+/* .footer-col .social-links a img{} */
 
 @media (max-width: 64em) {
     .about-content {
