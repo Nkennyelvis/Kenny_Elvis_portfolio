@@ -186,7 +186,7 @@ a:hover { color: #9370DB; }
     top: 0.9375rem;
     width: 0.125rem;
     height: calc(100% - 0.625rem);
-    background-color: var(#555);
+    background-color: #555;
 }
 .timeline-item:last-child::after { display: none; }
 .timeline-item h4 {
@@ -201,7 +201,7 @@ a:hover { color: #9370DB; }
 }
 .timeline-item .duration {
     font-size: 0.9rem;
-    color: var(#555);
+    color: #555;
     margin-bottom: 0.625rem;
 }
 .timeline-item ul {
@@ -243,7 +243,7 @@ a:hover { color: #9370DB; }
     align-items: center;
 }
 .skill-bar {
-    background-color: var(#555);
+    background-color: #555;
     height: 0.625rem;
     border-radius: 0.3125rem;
     position: relative;
@@ -261,7 +261,7 @@ a:hover { color: #9370DB; }
     font-weight: 600;
     color: #f0f0f0;
     white-space: nowrap;
-    opacity: 0;
+    opacity: 1;
     transition: opacity 0.5s ease;
 }
 .skill-bar-container:hover .skill-bar span { opacity: 1; }
@@ -286,72 +286,6 @@ a:hover { color: #9370DB; }
     font-size: 1.125rem;
     color: #ccc;
     margin-bottom: 2.5rem;
-}
-
-/* Testimonial Section */
-.testimonial-section {
-    background-color: #1a1a1a;
-    padding: 5rem 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.testimonial-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.testimonial-box {
-    background-color: z#2a2a2a;
-    padding: 2.5rem;
-    border-radius: 0.625rem;
-    box-shadow: 0 0.3125rem 1.25rem rgba(0, 0, 0, 0.4);
-    max-width: 37.5rem;
-    text-align: center;
-}
-.testimonial-box h4 {
-    font-size: 1.8rem;
-    margin-bottom: 1.25rem;
-    color: #7B68EE;
-}
-.testimonial-box p {
-    font-style: italic;
-    font-size: 1.125rem;
-    color: #ccc;
-    margin-bottom: 1.875rem;
-    position: relative;
-}
-.testimonial-box p::before, .testimonial-box p::after {
-    content: '"';
-    font-size: 3rem;
-    color: var(#555);
-    position: absolute;
-    line-height: 0;
-}
-.testimonial-box p::before { left: -1.25rem; top: 0; }
-.testimonial-box p::after {
-    right: -1.25rem;
-    bottom: 0;
-    transform: rotate(180deg);
-}
-.client-info {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 1.25rem;
-}
-.client-info img {
-    width: 3.75rem;
-    height: 3.75rem;
-    border-radius: 50%;
-    margin-right: 0.9375rem;
-    border: 0.125rem solid #7B68EE;
-    object-fit: cover;
-}
-.client-info span {
-    font-weight: 600;
-    font-size: 1.25rem;
-    color: #f0f0f0;
 }
 
 /* Footer */
